@@ -39,6 +39,11 @@ Send-ToEmail  -email "personReceivingEmail@idk.com" -attachmentpath $RESULTS;
 
 } 
 
+else
+{
+Write-Host "No missing files found. Move on to next script."
+}
+
 
 
  
