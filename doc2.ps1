@@ -15,6 +15,7 @@ If ((Get-Content $RESULTS) -ne $Null) #checks if there are missing files populat
 {
 Write-Host "Missing files found. Sending txt file to FIS."
 
+#send email to client.
 
 $outlook = New-Object -ComObject Outlook.Application
     $Mail = $outlook.CreateItem(0)
