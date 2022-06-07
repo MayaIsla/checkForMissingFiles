@@ -30,6 +30,7 @@ $outlook = New-Object -ComObject Outlook.Application
 else
 {
 Write-Host "No missing files found. Move on to next script."
+#kick off .exe here..
 }
 
 
