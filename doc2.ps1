@@ -1,9 +1,5 @@
 $dir1 = “D:\Desktop\Example1” #replace this with the destination of the source file (\\wab-ftepw01\usr\FIS\PDFStmts\*.pdf)
 $dir2 = “D:\Desktop\Example2” #where ever the TRG files are located...
-
-$Username = "userNameofYourEmail";
-$Password = "passWordofYourEmail";
-
 $RESULTS = "D:\Desktop\Results.txt"
 
 #replace this with the *.pdf file extension. 
